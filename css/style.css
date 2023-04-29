@@ -15,8 +15,8 @@
 /* varaiable*/
 
 :root{
-    --container-color:#1a1e21 ;
-    --second-color: #fd8f44;
+    --container-color:#04030f ;
+    --second-color:#ff0022;
     --text-color: #172317;
     --bg-color: #fff;
 }
@@ -28,9 +28,7 @@
 a {
     text-decoration: none;
 }
-li {
-    list-style: none;
-}
+
 img {
     width: 100%;
 }
@@ -87,7 +85,7 @@ header.shadow .logo{
 
 }
 .login:hover{
-    background: hsl(24,98%,58%);
+    background: hsl(0, 100%, 59%);
     transition: 0.3s;
 }
 /*Olo Home*/
@@ -251,6 +249,7 @@ header.shadow .logo{
     object-position: center;
 
 }
+
 .post-content{
     margin-top: 10rem !important;
 
